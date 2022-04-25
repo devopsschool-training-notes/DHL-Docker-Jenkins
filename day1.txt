@@ -176,6 +176,145 @@ docker run -d -p 8085:8080  jenkins/jenkins	Yosia
 docker run -d -p 8086:8080  jenkins/jenkins	Zharif
 
 docker exec cont-id more /path
+https://www.devopsschool.com/blog/complete-guide-of-java-installation-in-linux/
+https://www.devopsschool.com/blog/complete-tutorial-of-jenkins-installation-and-configuration/
+==================================
+
+http://3.110.175.100:8080/
+rajesh
+rajesh123
+==============================================
+What is CD
+--------------------------------------
+CI
+Cont Delivery		ITS POINT - If your CI passed - u reached CD
+Cont Deployment		into Prod
+
+
+
+
+
+What is Jenkins?
+	- CI tool
+	Release
+		- Community --- FREE - OS 
+		- Enterprise
+		- Blueocean
+		- jenkinsx
+	Written in Java
+	Based on plugins	https://plugins.jenkins.io/
+	
+
+What is CI 
+==================================
+Auto Build + Auto test
+----------------------
+	 Imm Feedback
+
+PLAN -> Code -> Code Ana -> Build -> UT -> Package -> Archive -> Dep2Qa -> AT -> CC
+
+
+PLAN -> Code -> Code Ana -> Build -> UT -> Package -> Archive -> Dep2Qa -> AT -> CC
+====================================================================================
+Jira -> git  -> Sonarqube -> Maven -> Junit -> war -> nexus  -> Ansible -> Sel -> Jacoco
+
+Arc							Dev											QA
+-------  --------------------------------------------  ------------------------------
+PLAN -> Code -> Code Ana -> Build -> UT -> Package -> Archive -> Dep2Qa -> AT -> CC
+====================================================================================
+Jira -> git  -> Sonarqube -> Maven -> Junit -> war -> nexus  -> Ansible -> Sel -> Jacoco
+-------------------------------------------------------------------------------------
+									 Imm Feedback
+
+How can we integ Team?
+How can we integ SDLC Phases?
+How can we integ Tools??
+
+Arc							Dev											QA
+-------  --------------------------------------------  ------------------------------
+PLAN -> Code -> Code Ana -> Build -> UT -> Package -> Archive -> Dep2Qa -> AT -> CC
+====================================================================================
+Jira -> git  -> Sonarqube -> Maven -> Junit -> war -> nexus  -> Ansible -> Sel -> Jacoco
+-------------------------------------------------------------------------------------
+									 Imm Feedback
+									 Integ tools
+									 Scheduling
+
+====================================================================
+Basic workflow
+--------------------------------------------------------------------
+What is your tech?	java dotnet python ruby???
+						--which version?
+						-- need to installed in Build server
+
+Where is your code?	git 
+				- which version
+				- need to be installed in build server
+
+						access?? url?
+
+What is your builder?
+				maven gradle ant msbuild shell cmd bash perl python
+
+				- which version
+				- need to be installed in build server
+
+How often you want to trigger this job?
+					@daily
+
+Whom u want to deliver Feedback
+					rajesh@devopsschool.com
+
+==============================================
+What is your tech? 
+				java
+
+Where is your code?
+https://github.com/devopsschool-demo-labs-projects/helloworld-java-maven
+
+
+What is your builder?
+			maven gradle ant msbuild shell cmd bash perl python
+			-----------------------
+			Goal	 task	   target  target 
+			
+			compile
+			test
+			package
+
+How often you want to trigger this job?
+					@daily
+			
+Whom u want to deliver Feedback
+					rajesh@devopsschool.com
+
+https://www.devopsschool.com/blog/configure-jenkins-first-job-of-java-code-base-with-maven-build-tool/
+
+
+
+
+
+
+
+
+/bin/python deploy.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
