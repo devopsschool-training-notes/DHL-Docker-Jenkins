@@ -119,8 +119,36 @@ docker create --name=raj1 nginx
 centos
 Password - raju123
 
+======================================
+Physical				virtual				container
+is running				is running			is running
+coz of 					coz of 				coz of 
+PID1					PID1				PID1	
+==================================================
+How to use container?
+How to use vm?
 
 
+get inside a container
+- do something
+---------------------------------
+exec
+- it would execute an executable inside a container
+$ docker exec wana1 ls
+$ docker exec wana1 df -kh
+- you can execute /bin/bash & with -it
+$ docker exec -it wana1 /bin/bash
+
+attach
+- it would get attached to PID 1 processs of the container
+		PID 1 can be bash, nginx, perl, python, java
+
+$ docker attach contid
+
+
+
+access from outside 
+- using http
 
 
 
