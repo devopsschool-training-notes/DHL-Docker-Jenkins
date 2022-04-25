@@ -1,0 +1,129 @@
+Rajesh Kumar
+====================
+Docker
+Jenkins
+==================================
+Start: 6:30 AM IST
+End: 2 PM IST
+--------------------
+Lunch: 9:30 AM IST - 10:30 AM IST
+-------------------------------
+Demo & Lab = AWS / Linux
+==============================
+PHYSICAL SERVER		=> Virtual Server ==> Container
+=====================================================
+					   Vmware			==> Docker
+
+
+
+Containers		Containers			Containers
+----------------------------------------
+Docker			Docker				Docker
+---------		------------
+1 Host			100 Host			100 Host
+				-----------------
+				Kubernetes			30 Kubernetes
+									================
+									OpenShift
+		
+===================================================
+what is Docker?
+Why Docker?
+How docker works?
+What is Container?
+How container works?
+====================================
+Step 1 - Install a docker
+https://www.devopsschool.com/blog/docker-installation-and-configurations/
+
+Human --> Client  --> DockerD --> ContainerD -> Kernel
+          -------------------
+				engine
+ 
+Step 2 - Showing you all components
+- Engine					DONE
+- Docker Registry			https://hub.docker.com/
+		nginx
+		apche
+		jenkins
+- Docker Images
+		OS IMAGE     === Boot file system + root fs + user fs + app fs
+		Docker Image ===  root fs + user fs + app fs
+
+Ubuntu in VMS --- Boot file system + root fs + user fs + app fs
+Ubuntu in Container - root fs + user fs +	app fs
+
+- ONE COPY OF Image - get mounted to each container
+- 10 container == 10 copy of image
+
+- Docker Container
+	is 1 userspace
+				with
+				1 Mount from Image
+				1 net
+				1 PIDTREE 
+
+Step 3 - Container workflow
+---------------------------------------
+VM - create -> start -> stop -> start -> restart -> pause -> unpause -> kill -> remove
+Container - create -> start -> stop -> start -> restart -> pause -> unpause -> kill -> remove
+
+
+  15  docker images
+   16  docker pull nginx
+   17  docker images
+   18  clear
+   19  docker images
+   20  docker create nginx
+   21  docker ps
+   22  docker ps -a
+   23  docker create nginx
+   24  docker ps -a
+   25  docker create nginx
+   26  clear
+   27  docker ps -a
+   28  docker start ea46cd27d6ef
+   29  docker ps -a
+   30  docker start 7d0ccfd237a6
+   31  docker ps -a
+   32  docker stop ea46cd27d6ef
+   33  docker ps -a
+   34  docker start ea46cd27d6ef
+   35  docker ps -a
+   36  docker restart 7d0ccfd237a6
+   37  docker ps -a
+   38  docker pause ea46cd27d6ef
+   39  docker ps -a
+   40  docker unpause ea46cd27d6ef
+   41  docker ps -a
+   42  docker kil ea46cd27d6ef
+   43  docker kill ea46cd27d6ef
+   44  docker kil ea46cd27d6ef
+   45  docker ps -a
+   46  docker rm ea46cd27d6ef
+   47  docker ps -a
+   48  docker start f2fa9f875023
+   49  clear
+   50  docker ps -a
+   51  docker inspect 7d0ccfd237a6 | grep -i ip
+   52  docker inspect f2fa9f875023 | grep -i ip
+   53  curl http://172.17.0.3
+   54  curl http://172.17.0.2
+   55  docker ps
+   56  docker ps -a
+
+=====================================
+docker create --name=raj1 nginx
+
+3.110.175.100
+centos
+Password - raju123
+
+
+
+
+
+
+
+
+
