@@ -149,8 +149,33 @@ $ docker attach contid
 
 access from outside 
 - using http
+=========================================
+pull -> create -> start -> attach
+==================================
+			run
 
+pull -> create -> start -> do not attach
+==================================
+			run -d
 
+$ docker run httpd
+$ docker run -d httpd
+$ docker run -p 81:80 -d httpd
+
+81:80
+81 - NODE port
+80 - container port
+
+docker run -p 82:80 -d nginx
+
+docker run -d -p 8081:8080  jenkins/jenkins	Chong
+docker run -d -p 8082:8080  jenkins/jenkins	Intan
+docker run -d -p 8083:8080  jenkins/jenkins	Nur
+docker run -d -p 8084:8080  jenkins/jenkins	Sachin
+docker run -d -p 8085:8080  jenkins/jenkins	Yosia
+docker run -d -p 8086:8080  jenkins/jenkins	Zharif
+
+docker exec cont-id more /path
 
 
 
