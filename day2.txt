@@ -1,0 +1,49 @@
+========================================================
+Integration
+--------------------
+- Install plugins
+- Config plugins
+- Use plugins in the jobs
+
+- Jenkins with Maven
+	- Install plugins
+	- Config plugins
+	- Use plugins in the jobs
+
+- Jenkins with Junit
+	- Install plugins
+	- Config plugins
+	- Use plugins in the jobs
+
+- Jenkins package 
+	- Install plugins
+	- Config plugins
+	- Use plugins in the jobs
+
+- Jenkins with nexus
+====================================
+$ docker run -d -p 8081:8081 --name nexus sonatype/nexus3
+
+http://3.110.175.100:8081
+admin
+admin123
+https://www.devopsschool.com/blog/nexus-integration-with-jenkins-to-upload-download-package/
+
+	- Install plugins		DONE
+	- Config plugins
+	- Use plugins in the jobs
+
+- Jenkins with Ansible
+================================
+
+
+
+- Jenkins with Docker
+=================================
+
+
+
+
+http://3.110.175.100:8080/job/Rajesh/job/package/lastSuccessfulBuild/artifact/target/yoodle-215.jar
+http://3.110.175.100:8080/job/Rajesh/job/package/7/artifact/target/yoodle-215.jar
+
