@@ -79,3 +79,14 @@ https://www.devopsschool.com/blog/how-to-create-a-pipeline-jobs-in-jenkins/
 		- Using Code
 
 
+=========================================
+
+https://github.com/devopsschool-demo-labs-projects/helloworld-java-maven/blob/master/jenkinsfile1
+
+https://github.com/devopsschool-demo-labs-projects/helloworld-java-maven
+
+https://www.jenkins.io/doc/book/pipeline/
+https://github.com/devopsschool-sample-programs/jenkins-groovy-scripts-collection
+https://github.com/devopsschool-sample-programs/jenkins-jenkinsfile-example-collection
+
+
