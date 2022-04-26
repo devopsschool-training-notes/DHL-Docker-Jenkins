@@ -47,3 +47,35 @@ https://www.devopsschool.com/blog/nexus-integration-with-jenkins-to-upload-downl
 http://3.110.175.100:8080/job/Rajesh/job/package/lastSuccessfulBuild/artifact/target/yoodle-215.jar
 http://3.110.175.100:8080/job/Rajesh/job/package/7/artifact/target/yoodle-215.jar
 
+
+
+Imm Feedback
+====================================================
+email
+		Mailer Plugin	== E-mail Notification = E-mail Notification
+		Email Extension Plugin == Editable Email Notification = Extended E-mail Notification
+		
+If - SMTP Server is not set,
+JavaMail API - System Default utlity for sending a email
+
+Chat
+- Slack
+- team
+- skype
+- whatsapp
+- Cisco
+	- Install Plugins
+	- Config plugins
+	- use plugins
+
+Dashboard
+===========================
+Pipeline
+		- Using Existing Job Using "Build Pipeline"
+			- All jobs must be linked.
+
+https://www.devopsschool.com/blog/how-to-create-a-pipeline-jobs-in-jenkins/
+
+		- Using Code
+
+
